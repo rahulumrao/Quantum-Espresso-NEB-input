@@ -17,3 +17,11 @@ ENTER THE OUTPUT FILENAME \
 test  \
 COMBINED TRAJECTORY WRITTEN IN traj.xyz FILE \
 NEB COORDINATES DESCRIPTION WRITTEN IN test FILE \
+
+
+```
+WRITTEN BY
+Rahul Verma
+vrahul@iitk.ac.in
+IIT Kanpur
+```
