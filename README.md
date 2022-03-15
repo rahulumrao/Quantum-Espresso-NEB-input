@@ -12,7 +12,7 @@ fix.xyz   (cartesian coordinates of fix atoms [default])
 traj.xyz [default]
 
 # RUN
-./QE_NEB_IMAGE.F90 \
+./QE_NEB_IMAGE.x \
 ENTER THE OUTPUT FILENAME \
 COMBINED TRAJECTORY WRITTEN IN traj.xyz FILE \
 NEB COORDINATES DESCRIPTION WRITTEN IN test FILE \
