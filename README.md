@@ -1,7 +1,7 @@
 # Quantum-Espresso-NEB-input
 FORTRAN program to help create coordinate description of NEB input for Quantum Espresso
 
-Compile using 'gfortran' compiler
+Compile using 'gfortran' compiler \
 gfortran QE_NEB_IMAGE.F90 -o QE_NEB_IMAGE.x
 
 # INPUT
@@ -10,3 +10,9 @@ fix.xyz   (cartesian coordinates of fix atoms [default])
 
 # OUTPUT
 traj.xyz [default]
+
+# RUN
+./QE_NEB_IMAGE.F90 \
+ENTER THE OUTPUT FILENAME \
+COMBINED TRAJECTORY WRITTEN IN traj.xyz FILE \
+NEB COORDINATES DESCRIPTION WRITTEN IN test FILE \
