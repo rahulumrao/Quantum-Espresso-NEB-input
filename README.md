@@ -5,8 +5,8 @@ Compile using 'gfortran' compiler \
 gfortran QE_NEB_IMAGE.F90 -o QE_NEB_IMAGE.x
 
 # INPUT
-relax.xyz (cartesian coordinates of relax atoms [default]) \
-fix.xyz   (cartesian coordinates of fix atoms [default])
+relax.xyz (cartesian coordinates of relax atoms [default filename]) \
+fix.xyz   (cartesian coordinates of fix atoms [default filename])
 
 # OUTPUT
 traj.xyz [default]
